@@ -6,7 +6,7 @@ index = int(coders_count[-1])
 length = len(coders_count)
 if length > 1:
     index_2 = int(coders_count[-2:])
-    print('Index 2 equals ' + str(index_2))
+#    print('Index 2 equals ' + str(index_2))
 #print('Индекс равен ' + str(index))
 #token = int(coders_count)
 #print('Токен равен ' + str(token))
