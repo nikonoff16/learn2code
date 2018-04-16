@@ -1,0 +1,44 @@
+[33mcommit 72a783014e22dfb8f6a02398feec801a92dab04c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 564ebe7 95fcaf2
+Author: Victor Osipov <37671082+nikonoff16@users.noreply.github.com>
+Date:   Thu Mar 29 01:17:09 2018 +0500
+
+    Merge pull request #1 from nikonoff16/Testing
+    
+    Testing
+
+[33mcommit 95fcaf23982e456c24df4c3d225ae7783c78e244[m[33m ([m[1;31morigin/Testing[m[33m)[m
+Author: nikonoff16 <i.nikonoff16@gmail.com>
+Date:   Thu Mar 29 01:15:11 2018 +0500
+
+    Done
+    
+    Первая часть Курса по Питону успешно завершена. Код может и дерьмо, но работает. Это хорошо. Пока.
+
+[33mcommit 8d9cdeb2a5e184564b884ece68e1cac3b3fd47da[m
+Author: nikonoff16 <i.nikonoff16@gmail.com>
+Date:   Thu Mar 29 00:17:45 2018 +0500
+
+    Almost done
+    
+    Нашел проблему - я неправильно делал срезы, и мои условия не выполнялись. Надо не забыть те наработки, что я делал в этом задании
+
+[33mcommit a51dc52704238c9b5eca9b8e510e47180d835062[m
+Author: nikonoff16 <i.nikonoff16@gmail.com>
+Date:   Wed Mar 28 23:10:54 2018 +0500
+
+    Отключение циклов
+    
+    Закомментил все элементы цикла, выровнял отступы, оптимизировал исключение второго десятка числе
+
+[33mcommit 564ebe79b781904b680dee3338dfe1c8d25b6009[m
+Author: Victor Osipov <37671082+nikonoff16@users.noreply.github.com>
+Date:   Wed Mar 28 22:45:55 2018 +0500
+
+    Main peace of code
+
+[33mcommit dd517796ca180b681a180ee897544cb9aea71602[m
+Author: Victor Osipov <37671082+nikonoff16@users.noreply.github.com>
+Date:   Wed Mar 28 22:44:38 2018 +0500
+
+    Create README.md
