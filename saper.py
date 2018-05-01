@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 I create Saper-like backend algorithm that marks field cell with numbers,
-that shows how many bombs touches the cellself.
+that shows how many bombs touches the cell.
 It's followed by https://stepik.org/lesson/3369/step/6?unit=952
 I did this script and all comments only for deeper dive in Python
 And I want to left some hint in future, if I would forget some of these algorithms.
