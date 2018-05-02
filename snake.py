@@ -22,7 +22,7 @@ for firstrow in range(n_square):
 for row in range(n_square):
     matrix[row+1][mark] = count
     count += 1
-    if row == n_square:
+    if row == n_square-1:
         mark = row
         print('Second fixed ordinate is ', mark, 'row value is', row)
         for row in matrix:
@@ -30,15 +30,7 @@ for row in range(n_square):
 
 
 
-# for row in range(n_square):
-#     matrix[mark][row+1] = count
-#     count += 1
-#     print('row value is', row)
-#
-#     if row == n_square - 1:
-#         n_square = 0
-#         mark = firstrow
-#         print('Third fixed ordinate is ', mark)
+
 
 # Making the Snake visible
 for row in matrix:
