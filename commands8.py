@@ -2,12 +2,21 @@
 # -*- coding: utf-8 -*-
 import datetime
 start_bench_no_bench = datetime.datetime.now()
-__version__ = "8.3.4.14-alpha"
+__version__ = "8.3.3.13-alpha"
 import os
 import sys
 import copy
 import platform
 import pkgutil
+import json
+import shutil
+import time
+import random
+import subprocess
+import datetime
+import re
+import ctypes
+import getpass
 
 FRACKING_Internal_mine_import_speed_tweaking = False
 
@@ -102,13 +111,20 @@ class OS:
 
 
 class Pip:
+
+
+
     @classmethod
-    def install(Pip, module_name):
+    def install(Pip, *module_names, upgrade=False):
         try:
             from pip import main as pip_main
         except ImportError:
             from pip._internal import main as pip_main
-        pip_main(['install', module_name])
+        if upgrade:
+            module_names = list(module_names)
+            module_names.insert(0, "--upgrade")
+        pip_main(['install', *module_names])
+        time.sleep(0.5)
         Pip.update_list_of_modules()
 
     @classmethod
@@ -128,6 +144,23 @@ class Pip:
         if "pip" not in Pip.list_of_modules:
             if OS.name == "linux":
                 os.system("sudo apt-get install python" + OS.python_commandline_version + "-pip")
+
+    @classmethod
+    def update_all_packages(Pip):
+        import pip
+        packages = Str.nl(Console.get_output("pip list"))
+        packages_names = []
+        for package in packages[3:]:
+            if ("Package" not in package) and ("---" not in package) and package != "":
+                packages_names.append(Str.get_words(package)[0])
+        Print.debug(packages_names)
+        Pip.install(*packages_names, upgrade=True)
+        Pip.reload_pip()
+
+    @classmethod
+    def reload_pip(Pip):
+        import pip, importlib
+        pip = importlib.reload(pip)
 
     list_of_modules = []
 
@@ -167,6 +200,20 @@ class Internal:
             ###########RARE###########
                 Pip.install(module_name)
         if not justdownload:
+            def import_error():
+                import_fail_arg = "--import-fail"
+                if import_fail_arg in sys.argv:
+                    print('<<<<<<<<<<Some errors occured with importing "' + str(module_name) + '", re-run script doesnt help, sorry about that>>>>>>>>>>')
+                    print('<<<<<<<<<<Trying to work without "' + str(module_name) + '">>>>>>>>>>')
+                else:
+                    commands = ""
+                    sys.argv.append(import_fail_arg)
+                    for arg in sys.argv:
+                        commands += arg + " "
+                    commands = commands.rstrip(" ")
+                    print('<<<<<<<<<<Some errors occured with importing "' + str(module_name) + '", trying to re-run script with parameters "' + commands + '">>>>>>>>>>')
+                    os.system(commands)
+                    sys.exit()
             try:
                 if az and objects:
                     if len(objects.split(",")) == 1:
@@ -177,6 +224,10 @@ class Internal:
                     import importlib
                     try:
                         globals()[az] = importlib.import_module(module_name)
+                    except ImportError as err:  # support for py3.4
+                        print(err)
+                        print("trying to import " + module_name + " in another way")
+                        exec ("import " + module_name + " as " + az, globals())
                     except ModuleNotFoundError as err:
                         print(err)
                         print("trying to import " + module_name + " in another way")
@@ -191,18 +242,18 @@ class Internal:
                     import importlib
                     try:
                         globals()[module_name] = importlib.import_module(module_name)
+                    except ImportError as err:  # support for py3.4
+                        print(err)
+                        print("trying to import " + module_name + " in another way")
+                        exec ("import " + module_name, globals())
                     except ModuleNotFoundError as err:
                         print(err)
                         print("trying to import " + module_name + " in another way")
                         exec ("import " + module_name, globals())
+            except ImportError as err:  # support for py3.4
+                import_error()
             except ModuleNotFoundError:
-                commands = ""
-                for arg in sys.argv:
-                    commands += arg + " "
-                commands = commands.rstrip(" ")
-                print('<<<<<<<<<<Some errors occured with importing "' + str(module_name) + '", trying to re-run script with parameters "' + commands + '">>>>>>>>>>')
-                os.system(commands)
-                sys.exit()
+                import_error()
 
         if FRACKING_Internal_mine_import_speed_tweaking: debug_Bench.prefix = module_name + " " + str(objects)
         if FRACKING_Internal_mine_import_speed_tweaking: debug_Bench.end()
@@ -247,7 +298,7 @@ class Internal:
         import commands8, importlib
         commands8 = importlib.reload(commands8)
         del commands8
-        string = "from commands8 import *"  # d you need to manually add this string to code :(
+        string = "from commands8 import *"  # d you need to manually add this <<< string to code :(
         if not quiet:
             print('"'+string+'" copied to clipboard')
             import copypaste
@@ -262,15 +313,7 @@ if OS.display:
     import tkinter
 
 
-import json, \
-       shutil, \
-       time, \
-       random, \
-       subprocess, \
-       datetime, \
-       re, \
-       ctypes, \
-       getpass
+
 
 
 
@@ -511,6 +554,14 @@ class Str:
         return output_int
 
 
+    @classmethod
+    def remove_spaces(Str, string_):
+        return ' '.join(string_.split())  # at least, it's fast https://stackoverflow.com/questions/2077897/substitute-multiple-whitespace-with-single-whitespace-in-python?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+
+    @classmethod
+    def get_words(Str, string_):
+        return Str.remove_spaces(string_).split(" ")
+
 
 class Console():
     @staticmethod
@@ -746,12 +797,12 @@ class File:
         filename = Path.full(filename)
         if os.path.split(filename)[0] != "":
             Dir.create(os.path.split(filename)[0])
-        if not os.path.exists(filename):
+        if not File.exists(filename):
             with open(filename, 'a'):  # open file and close after
                 os.utime(filename, None)  # change time of file modification
         else:
             raise FileExistsError("file" + str(filename) + "exists")
-        if not os.path.exists(filename):
+        if not File.exists(filename):
             raise FileNotFoundError("error while creating file " + filename +
                                     "try to repair script at " + Path.full(sys.argv[0]))
 
@@ -767,7 +818,7 @@ class File:
         if not quiet:
             print("file", path, "is deleted")
         time.sleep(0.05)
-        if os.path.exists(path):
+        if File.exists(path):
             raise FileExistsError(path + " is not deleted")
 
     @staticmethod
@@ -833,14 +884,18 @@ class File:
             return f.read()
 
     @staticmethod
-    def write(filename, what_to_write, mode="at"):  # write to end of file with default mode, you can change it to any
+    def write(filename, what_to_write, mode="ab"):  # write to end of file with default mode, you can change it to any
       # g that supported by python open() func
         with open(filename, mode=mode) as file:  # open file then closes it
-            file.write(what_to_write)
+            file.write(what_to_write.encode("utf-8"))
 
     @staticmethod
     def get_size(filename):  # return size in bytes
         return os.stat(filename).st_size
+
+    @staticmethod
+    def exists(filename):
+        return os.path.exists(filename)
 
 
 class Time:
@@ -927,7 +982,7 @@ class Json():
     @classmethod
     def save(cls, filename, jsonstring, quiet=False, debug=False):
         try:
-            File.create(filename)
+            File.wipe(filename)
             settingsJsonTextIO = open(filename, "w")
             json.dump(jsonstring, settingsJsonTextIO)
             settingsJsonTextIO.close()
@@ -1055,8 +1110,15 @@ class Dict:
         return dict_.items()
 
     @staticmethod
-    def sorted(dict):
-        raise NotImplementedError  # todo get it done
+    def sorted_by_key(dict, case_insensitive=False):
+        if case_insensitive == True:
+            output = {}
+            for i in sorted(dict, key=str.lower):
+                output[i] = dict[i]
+            return output
+        else:
+            import collections
+            return collections.OrderedDict(sorted(dict.items()))
 
 
 class Codegen:
@@ -1348,14 +1410,17 @@ class Int:
 
 class CLI():
     @staticmethod
-    def get_y_n(question=""):
-        while True:
-            inputtt = input(str(question) + " (y/n)?")
-            inputtt = inputtt.strip(" ")
+    def get_y_n(question="", answer=None):
+        def check_answer(string):
             if inputtt == "y":
                 return True
             if inputtt == "n":
                 return False
+        if answer: check_answer(answer)
+        while True:
+            inputtt = input(str(question) + " (y/n)?")
+            inputtt = inputtt.strip(" ")
+            check_answer(inputtt)
 
     wait_update_pos = 0
 
@@ -1386,7 +1451,6 @@ class CLI():
 
     @staticmethod
     def progressbar(count, of):
-
         Console.width()
 
 
