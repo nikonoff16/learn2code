@@ -3,10 +3,7 @@
 
 import requests
 
-
-with open('dataset_3378_2.txt', 'r') as inf:
-    url = inf.read()
-print(url)
-r = requests.get(url)
-open('854.txt', 'wb').write(r.content)
+r = requests.get('https://stepic.org/media/attachments/course67/3.6.2/899.txt')
 print(r.text)
+string_quantity = r.text.splitlines()
+print(len(string_quantity))
