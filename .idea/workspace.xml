@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be98dfda-42b4-42cf-b65b-ac66e4827582" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Stepik - Begginers Python/real_cypher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stepik - Begginers Python/football.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stepik - Begginers Python/football.py" afterDir="false" />
-    </list>
+    <list default="true" id="be98dfda-42b4-42cf-b65b-ac66e4827582" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,15 +109,6 @@
           <expand>
             <path>
               <item name="study_of-python_-not_only-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_of-python_-not_only-" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_of-python_-not_only-" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study_of-python_-not_only-" type="462c0819:PsiDirectoryNode" />
-              <item name="Stepik - Begginers Python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study_of-python_-not_only-" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -205,7 +192,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1522694" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.499375" weight="0.2672751" />
