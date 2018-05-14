@@ -4,9 +4,19 @@
 
 def make_cypher(str1, str2):
     your_dict = dict(zip(str1, str2))
-    return your_dict
+    your_antidict = dict(zip(str2, str1))
+    return your_dict, your_antidict
 
-mydict = make_cypher(input(), input())
-print(mydict)
+enigma, turing = make_cypher(input(), input())
+# print(enigma, turing)
 
+my_list = [input(), input()]
+# print(my_list)
 
+for string in my_list:
+    decode = ''
+    for letter in string:
+        decode += enigma[letter]
+        if len(decode) == len(string):
+            print(decode)
+    enigma = turing
