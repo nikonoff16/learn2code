@@ -1,7 +1,7 @@
 #! python3
 # -*- coding: utf-8 -*-
 
-
+# x={'global' : {'parent' : None, 'vars' : []}
 namesp_dict = {'None' : 'global'}
 variables = {'global': set()}
 
@@ -10,9 +10,8 @@ def create(namespace, parent):
     global variables
     if parent in namesp_dict.values():
         namesp_dict[parent] = namespace
-        variables[namespace] = set() 
-    else:
-        return (print('errror'))
+        variables[namespace] = set()
+
 
 def add(namespace, var):
     global namesp_dict
