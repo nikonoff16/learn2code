@@ -2,16 +2,28 @@
 # -*- coding: utf-8 -*-
 
 # x={'global' : {'parent' : None, 'vars' : []}
-namesp_dict = {'None' : 'global'}
+namesp_dict = {'None' : ['global']}
 variables = {'global': set()}
 
 def create(namespace, parent):
     global namesp_dict
     global variables
-    if parent in namesp_dict.values():
-        namesp_dict[parent] = namespace
+    if parent in namesp_dict:
+        namesp_dict[parent] = namesp_dict.get(parent)
+        namesp_dict[parent].append(namespace)
         variables[namespace] = set()
-
+    else:
+        check = True
+        for foo in namesp_dict:
+            for egg in namesp_dict[foo]:
+                if egg == parent:
+                    namesp_dict[parent] = [namespace]
+                    variables[namespace] = set()
+                    check = False
+                if check == False:
+                    break
+            if check == False:
+                break
 
 def add(namespace, var):
     global namesp_dict
@@ -27,10 +39,11 @@ def get(namespace, var):
     elif namespace == 'global':
         return None
     else:
-        for key in namesp_dict:
-            if namesp_dict[key] == namespace:
+        for foo in namesp_dict:
+            for egg in namesp_dict[foo]:
+                if egg == namespace:
 
-                return get(key, var)
+                    return get(foo, var)
     # else:
     #     parent = namesp_dict
     #     return get()
