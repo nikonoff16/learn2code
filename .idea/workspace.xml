@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be98dfda-42b4-42cf-b65b-ac66e4827582" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stepik - Intermidiate Python/1 - Basics/again.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,11 +23,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exceptions.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exceptions.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/exceptions.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graf1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/1 - Basics/graf1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="639">
+              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="47" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="again.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/1 - Basics/again.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -71,6 +89,7 @@
         <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/1 - Basics/five.py" />
         <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/1 - Basics/names_dict.py" />
         <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/exceptions.py" />
+        <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/1 - Basics/again.py" />
       </list>
     </option>
   </component>
@@ -88,6 +107,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,17 +124,22 @@
               <item name="learn2code" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn2code" type="462c0819:PsiDirectoryNode" />
               <item name="Stepik - Intermidiate Python" type="462c0819:PsiDirectoryNode" />
+              <item name="1 - Basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn2code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn2code" type="462c0819:PsiDirectoryNode" />
+              <item name="Stepik - Intermidiate Python" type="462c0819:PsiDirectoryNode" />
               <item name="2 - Inter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Stepik - Intermidiate Python/1 - Basics/again.py" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
@@ -165,11 +190,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stepik - Intermidiate Python/1 - Basics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/exceptions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stepik - Intermidiate Python/1 - Basics/again.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,17 +293,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.129375" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.499375" weight="0.2672751" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.515625" side_tool="true" visible="true" weight="0.25684485" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.516875" side_tool="true" visible="true" weight="0.25684485" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.484375" weight="0.25684485" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.483125" visible="true" weight="0.25684485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.499375" weight="0.32985657" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.618125" weight="0.39895698" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6175" weight="0.39895698" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -306,20 +332,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Stepik - Begginers Python/parsing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" selection-start-line="14" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stepik - Begginers Python/football.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Stepik - Begginers Python/parsing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -509,7 +521,21 @@
     <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/exceptions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/1 - Basics/graf1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="47" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/1 - Basics/again.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
