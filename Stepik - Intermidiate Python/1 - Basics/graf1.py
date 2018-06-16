@@ -1,43 +1,22 @@
 #! python3
 # -*- coding: utf-8 -*-
 
-# klasses = {'object': ['A'], 'A': ['B', 'C'], 'B': ['D'], 'C':['D', 'E'], 'D': [], 'E': []}
-
-# # checks = {'A': ['B'], 'B': ['D'], 'C': ['D'], 'D': ['A'], 'D': ['E']}
-
-# checks = ['A B', 'B D', 'C D', 'D A', 'D E']
-
-# klasses = {}
-# checks = []
-
-# graph = {'A': ['B', 'C'], 'B': ['C', 'D'], 'C': ['D'], 'D': ['C'], 'E': ['F'], 'F': ['C']}
 
 graph = {}
 
-''' Я не разобрался, как эта штука работает. Возможно, мне придется переписать всю эту функцию, понять лучше графы
-или что-то еще. Пока я пасс'''
 
-def find_path(graph, start, end, path=[]):
-    path = path + [start]
-    if start == end: 
-        # return path
-        return 'Yes'
-    if not graph.get(start):
-        # return None
-        return 'No'
-    if end in graph[start]:
-            return 'Yes'
-    for node in graph[start]:
-        if end in graph[node]:
-            return 'Yes'
-        # if node not in path:
-        #     newpath = find_path(graph, node, end, path)
-        #     if newpath: return 'Yes' #newpath
-    return 'No'
+def dfs1(graph, start):
+    visited, stack = set(), [start]
+    while stack:
+        vertex = stack.pop()
+        if vertex not in visited:
+            visited.add(vertex)
+            stack.extend(graph[vertex] - visited)
+    return visited
 
-# print(find_path(graph, 'A', 'D'))
 
 depth_graph = int(input())
+
 for iteration in range(depth_graph):
     brick = input()
     if ' : ' in brick:
@@ -49,10 +28,10 @@ for iteration in range(depth_graph):
     else:
         child = brick
         parents = []
-    graph[child] = parents
-    for parent in parents:
-        if parent not in graph:
-            graph[parent] = []
+    for foo in parents:
+        if foo not in graph:
+            graph[foo] = set([])
+    graph[child] = set(parents)
 
 # print(graph)
 
@@ -69,7 +48,13 @@ answers = []
 
 for pair in destination:
     parent, child = pair.split()
-    answers.append(find_path(graph, child, parent))
+    if parent == child:
+        answers.append('Yes')
+    elif parent in dfs1(graph, child):
+        answers.append('Yes')
+    else:
+        answers.append('No')
+
 
 for answer in answers:
     print(answer)
