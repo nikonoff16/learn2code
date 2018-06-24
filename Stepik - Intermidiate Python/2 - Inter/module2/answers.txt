@@ -1,0 +1,5 @@
+C:\GitHub_Rep\learn2code\Stepik - Intermidiate Python\2 - Inter\module2
+C:\GitHub_Rep\learn2code\Stepik - Intermidiate Python\2 - Inter\module2\sample
+C:\GitHub_Rep\learn2code\Stepik - Intermidiate Python\2 - Inter\module2\sample\a
+C:\GitHub_Rep\learn2code\Stepik - Intermidiate Python\2 - Inter\module2\sample\a\c
+C:\GitHub_Rep\learn2code\Stepik - Intermidiate Python\2 - Inter\module2\sample\b
