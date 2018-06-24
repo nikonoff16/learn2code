@@ -1,8 +1,13 @@
 import os
 import os.path
-import shutil
 
-shutil.copytree("tests", "tests/tests")
-
+f = open('answers.txt', 'a')
 for current_dir, dirs, files in os.walk("."):
-    print(current_dir, dirs, files)
+    if list(filter(lambda x: x.endswith('.py'), files)):
+        katalog = os.getcwd()
+        f.write(katalog+current_dir[1:]+'\n')
+
+
+
+
+f.close()

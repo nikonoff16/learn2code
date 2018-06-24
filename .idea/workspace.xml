@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be98dfda-42b4-42cf-b65b-ac66e4827582" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/check.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/date.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/date.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/fib.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/fib.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/imp_less.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/imp_less.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/raise_exc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/raise_exc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/files.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/os_practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/os_practice.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,77 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="exceptions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/exceptions.py">
+      <file leaf-file-name="os_practice.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/main/os_practice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="learning_graphs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/1 - Basics/learning_graphs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="raise_exc.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/raise_exc.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fib.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/fib.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="check.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/check.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="date.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/date.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imp_less.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/imp_less.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="200">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="e#12#28#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/666785202/builtins.py">
+      <file leaf-file-name="answers.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/main/answers.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72020">
-              <caret line="3601" column="8" selection-start-line="3601" selection-start-column="8" selection-end-line="3601" selection-end-column="8" />
+            <state>
+              <caret selection-end-line="104" />
             </state>
           </provider>
         </entry>
@@ -138,6 +82,13 @@
         <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/check.py" />
         <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/date.py" />
         <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/fib.py" />
+        <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/test1.txt" />
+        <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/test2.txt" />
+        <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/files.py" />
+        <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/answers.txt" />
+        <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/os_practice.py" />
+        <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/main/os_practice.py" />
+        <option value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/main/answers.txt" />
       </list>
     </option>
   </component>
@@ -155,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,7 +126,51 @@
             </path>
             <path>
               <item name="learn2code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn2code" type="462c0819:PsiDirectoryNode" />
+              <item name="Stepik - Intermidiate Python" type="462c0819:PsiDirectoryNode" />
+              <item name="2 - Inter" type="462c0819:PsiDirectoryNode" />
+              <item name="module2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn2code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn2code" type="462c0819:PsiDirectoryNode" />
+              <item name="Stepik - Intermidiate Python" type="462c0819:PsiDirectoryNode" />
+              <item name="2 - Inter" type="462c0819:PsiDirectoryNode" />
+              <item name="module2" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn2code" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="learn2code" type="cbb8eebc:String" user="learn2code" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="learn2code" type="cbb8eebc:String" user="learn2code" />
+              <item name="Stepik - Intermidiate Python" type="cbb8eebc:String" user="Stepik - Intermidiate Python" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="learn2code" type="cbb8eebc:String" user="learn2code" />
+              <item name="Stepik - Intermidiate Python" type="cbb8eebc:String" user="Stepik - Intermidiate Python" />
+              <item name="2 - Inter" type="cbb8eebc:String" user="2 - Inter" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="learn2code" type="cbb8eebc:String" user="learn2code" />
+              <item name="Stepik - Intermidiate Python" type="cbb8eebc:String" user="Stepik - Intermidiate Python" />
+              <item name="2 - Inter" type="cbb8eebc:String" user="2 - Inter" />
+              <item name="module2" type="cbb8eebc:String" user="module2" />
             </path>
           </expand>
           <select />
@@ -189,12 +183,13 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\GitHub_Rep\learn2code\Stepik - Intermidiate Python\1 - Basics" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\GitHub_Rep\learn2code\Stepik - Intermidiate Python\2 - Inter\module2" />
       <recent name="C:\GitHub_Rep\study_of-python_-not_only-\Stepik - Begginers Python" />
       <recent name="C:\GitHub_Rep\study_of-python_-not_only-" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub_Rep\learn2code\Stepik - Intermidiate Python\1 - Basics" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -209,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.date">
+  <component name="RunManager" selected="Python.os_practice (1)">
     <configuration name="check" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_of-python_-not_only-" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,24 +218,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/check.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="comprehension" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="study_of-python_-not_only-" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/comprehension.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,7 +241,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="files" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_of-python_-not_only-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -272,17 +249,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/imp_less.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/files.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="fib" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="os_practice (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study_of-python_-not_only-" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,11 +267,29 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/main" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/fib.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/main/os_practice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="os_practice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="study_of-python_-not_only-" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/os_practice.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -337,19 +332,19 @@
     <list>
       <item itemvalue="Jupyter Notebook.study_of-python_-not_only-" />
       <item itemvalue="Python.snake" />
-      <item itemvalue="Python.comprehension" />
-      <item itemvalue="Python.exceptions" />
-      <item itemvalue="Python.fib" />
       <item itemvalue="Python.check" />
       <item itemvalue="Python.date" />
+      <item itemvalue="Python.files" />
+      <item itemvalue="Python.os_practice" />
+      <item itemvalue="Python.os_practice (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.os_practice (1)" />
+        <item itemvalue="Python.os_practice" />
+        <item itemvalue="Python.files" />
         <item itemvalue="Python.date" />
         <item itemvalue="Python.check" />
-        <item itemvalue="Python.exceptions" />
-        <item itemvalue="Python.fib" />
-        <item itemvalue="Python.comprehension" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +387,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528824552011</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Графы давно позади (повторить надо). Теперь мучаем ФС">
+      <created>1529840541550</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1529840541550</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -408,14 +410,15 @@
     <frame x="1358" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.129375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.129375" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.499375" weight="0.2672751" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.518125" side_tool="true" visible="true" weight="0.25684485" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.520625" side_tool="true" visible="true" weight="0.25684485" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49875" weight="0.32985657" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.481875" weight="0.25684485" />
+      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.479375" visible="true" weight="0.25684485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.499375" weight="0.32985657" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.499375" weight="0.32985657" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6175" weight="0.39895698" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -424,7 +427,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.499375" weight="0.32985657" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -435,7 +437,8 @@
     <MESSAGE value="I have finished the course!" />
     <MESSAGE value="Задание сделано, пусть и через жопу. ))" />
     <MESSAGE value="Стал ближе к пониманию того, что есть граф. Завтра надо дочитать статью и работать с графами уже нормально, без тупых потуг своих." />
-    <option name="LAST_COMMIT_MESSAGE" value="Стал ближе к пониманию того, что есть граф. Завтра надо дочитать статью и работать с графами уже нормально, без тупых потуг своих." />
+    <MESSAGE value="Графы давно позади (повторить надо). Теперь мучаем ФС" />
+    <option name="LAST_COMMIT_MESSAGE" value="Графы давно позади (повторить надо). Теперь мучаем ФС" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -446,49 +449,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/1 - Basics/learning_graphs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/raise_exc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/imp_less.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#12#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.1/system/python_stubs/666785202/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72020">
-          <caret line="3601" column="8" selection-start-line="3601" selection-start-column="8" selection-end-line="3601" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/fib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfuck.py" />
-    <entry file="file://$PROJECT_DIR$/snake.py" />
-    <entry file="file://$PROJECT_DIR$/pip_fuck.py" />
-    <entry file="file://$PROJECT_DIR$/pythonfuck.py" />
-    <entry file="file://$PROJECT_DIR$/decyper.py" />
     <entry file="file://$PROJECT_DIR$/func2slow.py" />
     <entry file="file://$PROJECT_DIR$/dict1.py" />
     <entry file="file://$PROJECT_DIR$/parsing.py" />
@@ -680,7 +640,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/imp_less.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="140">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#12#28#0" expanded="true" />
@@ -720,6 +680,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/rand-iter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/test1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/test2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10958">
+          <caret selection-end-line="569" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/partial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/answers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/os_practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/main/answers.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stepik - Intermidiate Python/2 - Inter/module2/main/os_practice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
