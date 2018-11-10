@@ -26,4 +26,4 @@ for mark in autos:
     else:
         where_imp = countries.intersection(autos[mark])
         print(mark, 'поставляется в', ', '.join(list(where_imp)))
-    
+
