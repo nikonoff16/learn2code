@@ -7,6 +7,8 @@ chief_num = int(input("Введите число А: "))
 first_slave = int(input("Введите число В: "))
 second_slave = int(input("Введите число С: "))
 
+# Использовал алгоритм Евклида для решения задачи
+
 while first_slave != 0 and second_slave != 0:
     if first_slave > second_slave:
         first_slave %= second_slave
