@@ -20,7 +20,6 @@ def drw_trngl_wtn_sqwr(x_set=1920, y_set=1000, a_size=500):  # В значени
                   x_set/2 + a_size/2, y_set/2 - a_size/2, 
                   x_set/2, y_set/2 - a_size/2 + a_size*sqrt(3)/2),  # Для нахождения верной точки пользуемся формулой нахождения биссектрисы 
                   fill=("Yellow"), outline=("Black"))
-
     font = ImageFont.truetype('arial.ttf', 35)
     text = "Квадрат со вписанным треугольником со стороной " + str(a_size) + "px."
     draw.text((x_set/2 - len(text)*9, y_set/2 + a_size/2 + 15), text, 'Black', font=font)
