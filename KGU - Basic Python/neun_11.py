@@ -1,3 +1,8 @@
+'''
+9.11. 
+Построить квадрат, на одной стороне которого, как на основании, построен равносторонний треугольник со стороной a.
+'''
+
 from PIL import Image, ImageDraw, ImageFont, ImageGrab
 from math import sqrt
 
